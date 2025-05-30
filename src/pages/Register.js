@@ -29,6 +29,10 @@ const Register = () => {
     }
   };
 
+  const handleLoginRedirect = () => {
+    navigate("/login");
+  };
+
   return (
     <div className="register-container">
       <h2>Kayıt Ol</h2>
@@ -56,6 +60,12 @@ const Register = () => {
         />
         <button type="submit">Kayıt Ol</button>
       </form>
+      <p className="login-link">
+        Zaten hesabın var mı?{" "}
+        <span onClick={handleLoginRedirect} style={{ color: "blue", cursor: "pointer" }}>
+          Giriş Yap
+        </span>
+      </p>
     </div>
   );
 };

@@ -20,7 +20,7 @@ body {
 }
 
 .login-container input {
-  width: 100%;
+  width: 93%;
   padding: 12px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
@@ -53,16 +53,10 @@ body {
   word-wrap: break-word;
 }
 
-/* Gönderici kendinse */
-.message.sent {
-  background-color: #DCF8C6;
-  align-self: flex-end;
-  text-align: right;
+/* login.css */
+.register-link {
+  margin-top: 10px;
+  text-align: center;
 }
 
-/* Gönderici başkasıysa */
-.message.received {
-  background-color: #FFF;
-  align-self: flex-start;
-  text-align: left;
-}
+  

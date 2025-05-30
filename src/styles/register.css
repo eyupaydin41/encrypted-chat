@@ -26,7 +26,7 @@ body {
 }
 
 .register-container input {
-  width: 100%;
+  width: 93%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -46,3 +46,10 @@ body {
 .register-container button:hover {
   background-color: #1e874b;
 }
+
+/* register.css */
+.login-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
